@@ -1,18 +1,9 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+#Ignore Config Files
+src/config.cfg
+src/warehouse/warehouse_config.cfg
 
-# Other files and folders
-.settings/
+#Ignore Idea Files
+.idea/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+#Ignore Cache Files
+src/warehouse/__pycache__/
