@@ -39,7 +39,7 @@ Redshift: For Redshift I used 2 Node cluster with Instance Types `dc2.large`
 
 ### Setting Up Airflow
 
-I have written detailed instruction on how to setup Airflow using AWS CloudFormation script.  Check out - [Airflow using AWS CloudFormation](https://github.com/san089/Data_Engineering_Projects/blob/master/Airflow_Livy_Setup_CloudFormation.md)
+I have written detailed instruction on how to setup Airflow using AWS CloudFormation script.  Check out - [Airflow using AWS CloudFormation](https://github.com/YusraEjaz94/etl-pipeline-goodreads/blob/main/docs/Airflow_Livy_Setup_CloudFormation.md)
 
 **NOTE: This setup uses EC2 instance and a Postgres RDS instance. Make sure to check out charges before running the CloudFromation Stack.** 
 
