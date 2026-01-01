@@ -1,9 +1,9 @@
 # GoodReads Data Pipeline
 
-<img src="https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/goodreads.png" align="centre">
+<img src="https://github.com/YusraEjaz94/etl-pipeline-goodreads/blob/main/docs/images/goodreads.png" align="centre">
 
 ## Architecture 
-![Pipeline Architecture](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/architecture.png)
+![Pipeline Architecture](https://github.com/YusraEjaz94/etl-pipeline-goodreads/blob/main/docs/images/architecture.png)
 
 Pipeline Consists of various modules:
 
@@ -47,7 +47,7 @@ Project uses `sshtunnel` to submit spark jobs using a ssh connection from the EC
 
     pip install apache-airflow[sshtunnel]
 
-Finally, copy the dag and plugin folder to EC2 inside airflow home directory. Also, checkout [Airflow Connection](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/Airflow_Connections.md) for setting up connection to EMR and Redshift from Airflow.
+Finally, copy the dag and plugin folder to EC2 inside airflow home directory. Also, checkout [Airflow Connection](https://github.com/YusraEjaz94/goodreads_etl_pipeline/docs/Airflow_Connections.md) for setting up connection to EMR and Redshift from Airflow.
 
 ### Setting up EMR
 Spinning up EMR cluster is pretty straight forward. You can use AWS Guide available [here](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-gs.html).
